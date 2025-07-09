@@ -18,6 +18,14 @@ namespace ExamenFinal__DayanaRojas_
             Console.WriteLine("Sumatoria diaria de ventas durante la semana: ");
             Console.WriteLine("total de ventas realizadas por día, sumando todos los artículos: ");
             Console.WriteLine("Promedio de ventas de cada articulo en la semana: ");
+            int cantidadArticulos = int.Parse(Console.ReadLine());
+            int totalSemanalArticulos = int.Parse(Console.ReadLine());
+            int ventaMinima = int.Parse(Console.ReadLine());
+            int ventaMaxima = int.Parse(Console.ReadLine());
+            int sumatoriaDiariaVentas = int.Parse(Console.ReadLine());
+            int totalVentasPorDia = int.Parse(Console.ReadLine());
+            double promedioVentas = double.Parse(Console.ReadLine());
+            
 
         }
     }
